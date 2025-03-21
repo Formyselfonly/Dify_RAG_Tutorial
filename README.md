@@ -11,7 +11,7 @@
 
 1. General Chunk Type
 
-   ![](/img/General Chunk.png)
+   ![](/img/General_Chunk.png)
 
    1. Delimiter
       分隔符，比如说\n代表有回车时分割出一个Chunk，\n\n代表有两个回车时分割出一个Chunk
@@ -50,7 +50,7 @@
 
 
 
-![](/img/Embedding Model.png)
+![](/img/Embedding_Model.png)
 
 - Embedding会把文本变为向量，向量之间才能进行向量搜索
 - 选Embedding模型即可，建议选择OpenAI的Embedding：text-embedding-3-large
@@ -60,7 +60,7 @@
 - 关键词检索
   根据用户输入的关键词，与Chunk里面的关键词检索
 
-  ![](/img/Full text.png)
+  ![](/img/Full_text.png)
   
 - 向量检索
   
@@ -71,7 +71,7 @@
   
 - 混合检索
 
-  ![](/img/Hybrid Search.png)
+  ![](/img/Hybrid_Search.png)
 
   - Weighted Score
     自己设定一个比例混合关键词检索和向量检索，比如0.7Semantic，0.3Keyword
