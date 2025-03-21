@@ -10,6 +10,7 @@
 ### Chunk Setting相关
 
 1. General Chunk Type
+
    ![](/img/General Chunk.png)
 
    1. Delimiter
@@ -25,6 +26,7 @@
 2. Parent-Child Chunk Type
    根据段落或者整个文档作为一个父Chunk，里面的都是小Chunk
    Chunk的设置与刚才说明的一样
+
    ![](/img/Parent-Child Chunk.png)
 
    1. Paragraph Type
@@ -36,6 +38,8 @@
 
 ### Index Method相关
 
+
+
 ![](/img/Index_Method.png)
 
 - 选High Quality
@@ -43,6 +47,8 @@
   公司级别无脑选High Quality，个人开发者也基本无脑选High Quality
 
 ### Embedding Model相关
+
+
 
 ![](/img/Embedding Model.png)
 
@@ -53,15 +59,18 @@
 
 - 关键词检索
   根据用户输入的关键词，与Chunk里面的关键词检索
+
   ![](/img/Full text.png)
   
 - 向量检索
+  
   
   ![](/img/Vector.png)
   根据向量检索，用户的输入会被转化为向量
   Chunk也会被转化为向量进行匹配
   
 - 混合检索
+
   ![](/img/Hybrid Search.png)
 
   - Weighted Score
