@@ -47,7 +47,7 @@ This section not only introduces the main principles but also provides parameter
 - **Keyword Search**
    Search based on keywords provided by the user and compare them with the keywords in the chunks.
 
-  ![img](/img/Full_text.png)
+  ![img](/img/Full_Text.png)
 
 - **Vector Search**
 

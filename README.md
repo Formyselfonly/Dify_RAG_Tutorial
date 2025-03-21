@@ -60,10 +60,9 @@
 - 关键词检索
   根据用户输入的关键词，与Chunk里面的关键词检索
 
-  ![](/img/Full_text.png)
+  ![](/img/Full_Text.png)
   
 - 向量检索
-  
   
   ![](/img/Vector.png)
   根据向量检索，用户的输入会被转化为向量
