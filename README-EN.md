@@ -70,6 +70,13 @@ This section not only introduces the main principles but also provides parameter
 
 ## Best Combination Strategy - How to Implement Dify + RAGFlow?
 
+- Get API Server and APIKEY from RAGFLOW
+  API Server format should be :http://xxx.xxx.x.xx:xx/api/v1/dify
+  http://xxx.xxx.x.xx:xx is your domain and port in your RAGFlow UI interface
+- Click External Knowledge API in Dify,write them
+- Click Connect to an External Knowledge Base
+  - Write your Knowledge ID that will should in your RAGFlow UI interface
+
 ## Contact Me: z1597006376@gmail.com
 
 I will keep this simple for now and update it later when I have more time.

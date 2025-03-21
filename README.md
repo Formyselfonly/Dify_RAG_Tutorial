@@ -87,7 +87,15 @@
 
 ## 最佳的搭配策略-Dify+RAGFlow怎么实现？
 
-
+1. 从 RAGFLOW 获取 API 服务器和 APIKEY
+    API 服务器格式应为：http://xxx.xxx.x.xx:xx/api/v1/dify
+    http://xxx.xxx.x.xx:xx 是你在 RAGFlow UI 界面中的域名和端口
+   记住要加上端口，你部署RAGFlow时的端口
+2. 在 Dify 中点击“外部知识 API”，并填写相关信息
+3. 点击“连接到外部知识库”
+4. 输入你的知识库 ID，该 ID 会显示在你的 RAGFlow UI 界面中
+   也就是浏览器上面，你点进去知识库，会显示一个链接类似
+   http://xxx.xxx.x.xx/knowledge/dataset?id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 联系我z1597006376@gmail.com
 
