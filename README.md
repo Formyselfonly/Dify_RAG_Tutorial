@@ -27,7 +27,7 @@
    根据段落或者整个文档作为一个父Chunk，里面的都是小Chunk
    Chunk的设置与刚才说明的一样
 
-   ![](/img/Parent-Child Chunk.png)
+   ![](/img/Parent-Child_Chunk.png)
 
    1. Paragraph Type
       以段落为大Chunk，怎么进行分段由Delimiter决定
