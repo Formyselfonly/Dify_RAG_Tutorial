@@ -25,10 +25,20 @@
 
 2. Parent-Child Chunk Type
    根据段落或者整个文档作为一个父Chunk，里面的都是小Chunk
+   
+   子Chunk用于检索，父Chunk用于召回
+   
+   说白了就是用户的Query不是会和文档库里面的Chunk匹配吗？
+   
+   如果没有子Chunk，一段可能很长，那么不同长度的文本向量相似度不会高，会导致检索不到
+   
+   而如果把Chunk长度缩短，会导致召回的上下文不足
+   
+   所以有了，子Chunk用于检索提升精确度，父Chunk用于召回提升上下文内容丰富度。
    Chunk的设置与刚才说明的一样
-
+   
    ![](/img/Parent-Child_Chunk.png)
-
+   
    1. Paragraph Type
       以段落为大Chunk，怎么进行分段由Delimiter决定
       比如说我以\n\n来定段落,小Chunk可以定为\n为分隔符
